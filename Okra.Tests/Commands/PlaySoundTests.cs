@@ -2,11 +2,11 @@
 using NSubstitute;
 using NSubstitute.Exceptions;
 using NUnit.Framework;
-using Okra.Commands.TimerActions;
-using Okra.View.Digits;
+using Seedling.Commands.TimerActions;
+using Seedling.View.Digits;
 using Should.Fluent;
 
-namespace Okra.Tests.Commands
+namespace Seedling.Tests.Commands
 {
     [TestFixture]
     public class PlaySoundTests

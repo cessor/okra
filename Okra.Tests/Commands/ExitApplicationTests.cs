@@ -1,8 +1,8 @@
 ﻿using NUnit.Framework;
-using Okra.Commands.App;
+using Seedling.Commands.App;
 using Should.Fluent;
 
-namespace Okra.Tests.Commands
+namespace Seedling.Tests.Commands
 {
     [TestFixture]
     public class ExitApplicationTests

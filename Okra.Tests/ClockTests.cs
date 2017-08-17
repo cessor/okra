@@ -2,12 +2,12 @@
 using DateApi;
 using NSubstitute;
 using NUnit.Framework;
-using Okra.Commands.Timer;
-using Okra.Model.Time;
-using Okra.View.Digits;
+using Seedling.Commands.Timer;
+using Seedling.Model.Time;
+using Seedling.View.Digits;
 using Should.Fluent;
 
-namespace Okra.Tests
+namespace Seedling.Tests
 {
     [TestFixture]
     public class ClockTests

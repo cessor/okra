@@ -1,9 +1,9 @@
 ﻿using System;
 using NUnit.Framework;
-using Okra.Model.Time;
+using Seedling.Model.Time;
 using Should.Fluent;
 
-namespace Okra.Tests
+namespace Seedling.Tests
 {
     [TestFixture]
     public class WristwatchTests

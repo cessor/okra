@@ -1,11 +1,11 @@
 ﻿using System;
 using NSubstitute;
 using NUnit.Framework;
-using Okra.Commands.Actions;
-using Okra.View.Digits;
+using Seedling.Commands.Actions;
+using Seedling.View.Digits;
 using Should.Fluent;
 
-namespace Okra.Tests.Commands
+namespace Seedling.Tests.Commands
 {
     class ClearActionsTests
     {

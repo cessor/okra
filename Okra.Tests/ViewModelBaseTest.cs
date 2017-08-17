@@ -1,8 +1,8 @@
 using NUnit.Framework;
-using Okra.Model;
+using Seedling.Model;
 using Should.Fluent;
 
-namespace Okra.Tests
+namespace Seedling.Tests
 {
     [TestFixture]
     public class ViewModelBaseTest

@@ -1,6 +1,6 @@
-using Okra.Commands.Synchronize;
+using Seedling.Commands.Synchronize;
 
-namespace Okra.Tests.IntegrationTests
+namespace Seedling.Tests.IntegrationTests
 {
     public class UrlProvider : IAskForAUrl
     {

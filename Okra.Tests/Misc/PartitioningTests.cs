@@ -5,7 +5,7 @@ using System.Text;
 using NUnit.Framework;
 using Should.Fluent;
 
-namespace Okra.Tests.Misc
+namespace Seedling.Tests.Misc
 {
 
     public static class ListPartitioning 

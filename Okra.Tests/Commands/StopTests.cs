@@ -1,10 +1,10 @@
 ﻿using NSubstitute;
 using NUnit.Framework;
-using Okra.Commands.Timer;
-using Okra.View.Digits;
+using Seedling.Commands.Timer;
+using Seedling.View.Digits;
 using Should.Fluent;
 
-namespace Okra.Tests.Commands
+namespace Seedling.Tests.Commands
 {
     [TestFixture]
     public class StopTests

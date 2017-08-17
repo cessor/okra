@@ -3,7 +3,7 @@ using DateApi;
 using NUnit.Framework;
 using Should.Fluent;
 
-namespace Okra.Tests.DateAndTime
+namespace Seedling.Tests.DateAndTime
 {
     // TODO: Check whether this is actually still used - JH, 23.12.2012
     [TestFixture]

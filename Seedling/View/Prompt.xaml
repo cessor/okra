@@ -1,0 +1,14 @@
+﻿<Window x:Class="Seedling.View.Prompt" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Title="Enter a new Message!" WindowStyle="None"
+        AllowsTransparency="True" ShowInTaskbar="True" ResizeMode="NoResize" Background="Transparent" Topmost="True"
+        SizeToContent="WidthAndHeight" WindowStartupLocation="CenterScreen">
+    <StackPanel>
+        <Label Content="{Binding Caption}" FontSize="36" FontWeight="Bold" Foreground="{Binding Foreground}">
+            <Label.Effect>
+                <DropShadowEffect ShadowDepth="4" Direction="330" Color="Black" Opacity="0.5" BlurRadius="8" />
+            </Label.Effect>
+        </Label>
+        <TextBox Name="MessageTextBox" FontSize="36" BorderBrush="{Binding Foreground}" BorderThickness="2"
+                 KeyUp="KeyUp" />
+    </StackPanel>
+</Window>

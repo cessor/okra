@@ -101,12 +101,6 @@
     <Compile Include="WristwatchTests.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Okra\Okra.csproj">
-      <Project>{9A46A7CD-EBC0-480C-97B0-0269F20D3FB1}</Project>
-      <Name>Okra</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <Content Include="AcceptanceCriteria\GlidingRiver.txt" />
     <Content Include="RememberThis.txt" />
   </ItemGroup>
@@ -138,6 +132,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Seedling\Seedling.csproj">
+      <Project>{9a46a7cd-ebc0-480c-97b0-0269f20d3fb1}</Project>
+      <Name>Seedling</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(SolutionDir)\.nuget\nuget.targets" />

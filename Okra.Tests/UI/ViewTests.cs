@@ -1,8 +1,8 @@
 ﻿using System.Threading;
 using NUnit.Framework;
-using Okra.View.Settings;
+using Seedling.View.Settings;
 
-namespace Okra.Tests.UI
+namespace Seedling.Tests.UI
 {
     [TestFixture]
     public class ViewTests

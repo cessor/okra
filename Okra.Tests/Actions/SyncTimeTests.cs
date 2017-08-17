@@ -1,10 +1,10 @@
 using System;
 using DateApi;
 using NUnit.Framework;
-using Okra.Commands.Synchronize;
+using Seedling.Commands.Synchronize;
 using Should.Fluent;
 
-namespace Okra.Tests.Actions
+namespace Seedling.Tests.Actions
 {
     [TestFixture]
     public class SyncTimeTests

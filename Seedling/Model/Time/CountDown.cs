@@ -1,0 +1,35 @@
+﻿using System;
+using System.Timers;
+
+namespace Seedling.Model.Time
+{
+    public class Countdown : IStartAndStop
+    {
+        private readonly Timer _timer = new Timer(250);
+
+        public Countdown()
+        {
+            _timer.Elapsed += (s, e) => OnTick();
+        }
+     
+
+        public Action Tick { get; set; }
+
+        public void Start()
+        {
+            _timer.Start();
+        }
+
+        public void Stop()
+        {
+            _timer.Stop();
+        }
+
+        public void OnTick()
+        {
+            Action handler = Tick;
+            if (handler == null) return;
+            handler();
+        }
+    }
+}

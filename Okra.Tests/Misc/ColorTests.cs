@@ -1,9 +1,9 @@
 using System.Windows.Media;
 using NUnit.Framework;
-using Okra.Readability;
+using Seedling.Readability;
 using Should.Fluent;
 
-namespace Okra.Tests.Misc
+namespace Seedling.Tests.Misc
 {
     [TestFixture]
     public class ColorTests

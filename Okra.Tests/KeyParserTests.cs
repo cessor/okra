@@ -1,9 +1,9 @@
 ﻿using System.Windows.Input;
 using NUnit.Framework;
-using Okra.Commands.Timer;
+using Seedling.Commands.Timer;
 using Should.Fluent;
 
-namespace Okra.Tests
+namespace Seedling.Tests
 {
     [TestFixture]
     public class KeyParserTests

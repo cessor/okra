@@ -1,8 +1,8 @@
 ﻿using System.Windows.Input;
 using NUnit.Framework;
-using Okra.Readability;
+using Seedling.Readability;
 
-namespace Okra.Tests
+namespace Seedling.Tests
 {
     [TestFixture]
     public class KeyExtensionTests

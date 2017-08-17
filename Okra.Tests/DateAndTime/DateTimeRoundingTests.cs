@@ -1,8 +1,8 @@
 using System;
 using NUnit.Framework;
-using Okra.Readability;
+using Seedling.Readability;
 
-namespace Okra.Tests.DateAndTime
+namespace Seedling.Tests.DateAndTime
 {
     [TestFixture]
     public class DateTimeRoundingTests

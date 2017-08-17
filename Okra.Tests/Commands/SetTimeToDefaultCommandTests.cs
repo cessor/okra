@@ -2,11 +2,11 @@
 using DateApi;
 using NSubstitute;
 using NUnit.Framework;
-using Okra.Commands.UI;
-using Okra.View.Digits;
+using Seedling.Commands.UI;
+using Seedling.View.Digits;
 using Should.Fluent;
 
-namespace Okra.Tests.Commands
+namespace Seedling.Tests.Commands
 {
     [TestFixture, Apartment(ApartmentState.STA)]
     public class SetTimeToDefaultCommandTests

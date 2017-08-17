@@ -9,7 +9,7 @@ using TestStack.White.UIItems.WPFUIItems;
 using TestStack.White.WindowsAPI;
 using Application = TestStack.White.Application;
 
-namespace Okra.Tests.UI
+namespace Seedling.Tests.UI
 {
     [TestFixture, Ignore("These Test are very brittle. They work, but not must be left alone to run")]
     public class UIT

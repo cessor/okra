@@ -2,10 +2,10 @@
 using DateApi;
 using NSubstitute;
 using NUnit.Framework;
-using Okra.Commands.Synchronize;
-using Okra.View.Digits;
+using Seedling.Commands.Synchronize;
+using Seedling.View.Digits;
 
-namespace Okra.Tests.Actions
+namespace Seedling.Tests.Actions
 {
     [TestFixture, Ignore("I never built this")]
     public class SynchronizeFromWebActionTests

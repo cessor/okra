@@ -3,15 +3,15 @@ using System.Threading;
 using System.Windows.Media;
 using NSubstitute;
 using NUnit.Framework;
-using Okra.Commands.UI;
-using Okra.Readability;
-using Okra.View.ColorPicker;
-using Okra.View.Digits;
-using Okra.View.Input;
-using Okra.View.TimePicker;
+using Seedling.Readability;
+using Seedling.View.ColorPicker;
+using Seedling.Commands.UI;
+using Seedling.View.Digits;
+using Seedling.View.Input;
+using Seedling.View.TimePicker;
 using Should.Fluent;
 
-namespace Okra.Tests.Commands
+namespace Seedling.Tests.Commands
 {
     [TestFixture, Apartment(ApartmentState.STA)]
     public class PresetTimeTests

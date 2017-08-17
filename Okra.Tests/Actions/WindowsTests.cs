@@ -1,9 +1,9 @@
 ﻿using NSubstitute;
 using NUnit.Framework;
-using Okra.Commands.Power;
-using Okra.Commands.Power.Win32Api;
+using Seedling.Commands.Power;
+using Seedling.Commands.Power.Win32Api;
 
-namespace Okra.Tests.Actions
+namespace Seedling.Tests.Actions
 {
     [TestFixture]
     public class WindowsTests

@@ -5,12 +5,12 @@ using System.Windows.Input;
 using Microsoft.Win32;
 using NSubstitute;
 using NUnit.Framework;
-using Okra.Commands;
-using Okra.Commands.Timer;
+using Seedling.Commands;
+using Seedling.Commands.Timer;
 using Should.Core.Exceptions;
 using Should.Fluent;
 
-namespace Okra.Tests
+namespace Seedling.Tests
 {
     [TestFixture]
     public class KeyBindingFactoryTests

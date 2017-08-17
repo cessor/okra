@@ -1,8 +1,8 @@
 using NUnit.Framework;
-using Okra.View.Keyboard;
+using Seedling.View.Keyboard;
 using Should.Fluent;
 
-namespace Okra.Tests.Actions
+namespace Seedling.Tests.Actions
 {
     [System.ComponentModel.Description("Description")]
     internal class ClassWithDescription

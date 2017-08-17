@@ -1,12 +1,12 @@
 using System;
 using DateApi;
 using NUnit.Framework;
-using Okra.Commands.Synchronize;
-using Okra.Model.Time;
-using Okra.View.Digits;
+using Seedling.Commands.Synchronize;
+using Seedling.Model.Time;
+using Seedling.View.Digits;
 using Should.Fluent;
 
-namespace Okra.Tests.IntegrationTests
+namespace Seedling.Tests.IntegrationTests
 {
     [TestFixture]
     [Ignore("Requires Internet Connection.")]

@@ -1,10 +1,10 @@
 using System;
 using DateApi;
 using NUnit.Framework;
-using Okra.Model;
+using Seedling.Model;
 using Should.Fluent;
 
-namespace Okra.Tests.DateAndTime
+namespace Seedling.Tests.DateAndTime
 {
     [TestFixture]
     public class CircularTimespanTests

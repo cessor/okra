@@ -1,10 +1,10 @@
 using System.Collections.Generic;
 using System.Linq;
 using NUnit.Framework;
-using Okra.Readability;
+using Seedling.Readability;
 using Should.Fluent;
 
-namespace Okra.Tests
+namespace Seedling.Tests
 {
     [TestFixture]
     public class DictionaryExtensionTests

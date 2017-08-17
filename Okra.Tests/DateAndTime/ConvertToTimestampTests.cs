@@ -1,9 +1,9 @@
 using System;
 using DateApi;
 using NUnit.Framework;
-using Okra.Model;
+using Seedling.Model;
 
-namespace Okra.Tests.DateAndTime
+namespace Seedling.Tests.DateAndTime
 {
     [TestFixture]
     public class ConvertToTimestampTests

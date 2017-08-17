@@ -6,11 +6,11 @@ using NSubstitute;
 using NSubstitute.Core;
 using NSubstitute.Core.Arguments;
 using NUnit.Framework;
-using Okra.Commands;
-using Okra.Commands.Timer;
+using Seedling.Commands;
+using Seedling.Commands.Timer;
 using Should.Fluent;
 
-namespace Okra.Tests
+namespace Seedling.Tests
 {
     [TestFixture]
     public class PluginTests
