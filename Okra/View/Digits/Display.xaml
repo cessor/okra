@@ -1,0 +1,27 @@
+﻿<Window x:Class="Okra.View.Digits.Display" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" mc:Ignorable="d"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:o="clr-namespace:Okra.Commands"
+        xmlns:Input="clr-namespace:Okra.View.Input"
+        Title="Okra - The multi purpose timer" WindowStyle="None" AllowsTransparency="True" Background="Transparent"
+        Topmost="True" ShowInTaskbar="True" ResizeMode="NoResize" Icon="/Okra;component/okra.ico"
+        SizeToContent="WidthAndHeight" KeyUp="WhenAKeyWasPressed">
+    <Window.InputBindings>
+        <MouseBinding Gesture="{x:Static Input:MouseWheelGesture.CtrlDown}" Command="{o:Commands Zoom}"
+                      CommandParameter="-10" />
+        <MouseBinding Gesture="{x:Static Input:MouseWheelGesture.CtrlUp}" Command="{o:Commands Zoom}"
+                      CommandParameter="10" />
+        <MouseBinding Gesture="{x:Static Input:MouseWheelGesture.Up}" Command="{o:Commands AddSeconds}"
+                      CommandParameter="10" />
+        <MouseBinding Gesture="{x:Static Input:MouseWheelGesture.Down}" Command="{o:Commands AddSeconds}"
+                      CommandParameter="-10" />
+        <MouseBinding Gesture="LeftDoubleClick" Command="{o:Commands Toggle}" />
+    </Window.InputBindings>
+    <Label Name="Time" Content="{Binding TimeLeft, Mode=OneWay}" Foreground="{Binding Color}"
+           FontSize="{Binding FontSize}" FontWeight="Bold" Padding="0"
+           MouseDown="WhenTheMouseIsDownOnTheLabel" HorizontalAlignment="Center">
+        <Label.Effect>
+            <DropShadowEffect ShadowDepth="4" Direction="330" Color="Black" Opacity="0.5" BlurRadius="8" />
+        </Label.Effect>
+    </Label>
+</Window>

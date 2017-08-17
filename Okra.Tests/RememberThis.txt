@@ -1,0 +1,3 @@
+﻿// This could be helpfull when trying to move stuff to NUnit
+
+http://msdn.microsoft.com/en-us/library/aa970678(v=vs.90).aspx

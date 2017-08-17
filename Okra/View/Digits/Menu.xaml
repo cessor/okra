@@ -1,0 +1,6 @@
+﻿<ContextMenu x:Class="Okra.View.Digits.Menu" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:o="clr-namespace:Okra.Commands">
+
+    <!-- The Menu automatically adds all viewcommand objects that are tagged with a MenuItemAttribute-->
+
+</ContextMenu>

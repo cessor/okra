@@ -1,0 +1,22 @@
+﻿
+Terms: 
+Gliding River Technique: A technique like the pomodoro technique, but with a more dynamic work / break system.
+Count Down: The time left for a work or break period
+Work Period: A period of time to perform work. It is timeboxed to 25 minutes
+Break Period: A period of time to have a break. It is timeboxed to 5 minutes
+Overtime: The overtime of a work period
+
+
+Given I have selected the GlidingRiverAction
+When the count down is down to no time left
+It will keep running and show the amount of overtime that has passed
+
+Given I have been running an overtime work session
+When I stop the timer
+A new countdown will indicate a break period with duration in relation the the overtime 
+
+Assumption: The break has a 1 / 5 relationship to the work period.
+
+Given I am having a break
+When the break is over
+The new work period will have be set to thj

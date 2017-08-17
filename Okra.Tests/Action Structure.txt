@@ -1,0 +1,13 @@
+﻿
+Every Pomodoraction Should have the following structure:
+
+Action
+	Methods
+		- Execute
+		- Select
+		- Timer Started
+		- Tick
+		- Timer Ended
+	Events
+		- Before Execution
+		- After Execution

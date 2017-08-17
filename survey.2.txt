@@ -1,0 +1,300 @@
+()
+App.xaml.cs (51): ;;;;;;;;;;;;;;{{{;;;;;;;;;;;{;};;;}}}
+()
+InteractionFactory.cs (67): ;;;;;;;;;{{;{;}{;}{;}{;;;;;{{};}{};}{;}}}
+()
+CommandsExtension.cs (40): ;;{{{}{;}{;;}{;}{{;;}{;;};}}}
+()
+MenuItemAttribute.cs (37): ;{{{}{}{}{{};}{;;}}{{;;;}{;;}{;;}{;;}}}
+()
+ShortCut.cs (47): ;;{{{{}{}};{;;}{;;}{;;}{{{};}}{;;}{;}}}
+()
+ShortCutAttribute.cs (33): ;;{{{;}{}{}{}{{};}{;;}}}
+()
+ViewCommand.cs (31): ;;;{{{;}{;;}{}{;};}}
+()
+ClearActions.cs (19): ;;{{{}{{};}}}
+()
+RegisterTimeoutEvent.cs (32): ;;;{{{}{;;}{;}{;;}}}
+()
+ExitApplication.cs (25): ;;;;;{{{}{;}}}
+()
+ShowKeymap.cs (22): ;;;;{{{}{;}}}
+()
+Hibernate.cs (24): ;;;{{{}{;;;;}}}
+()
+IShutdownTheSystem.cs (7): {{;}}
+()
+Lock.cs (26): ;;;{{{}{;}}}
+()
+LogOff.cs (22): ;;;{{{}{;;}}}
+()
+PowerCommand.cs (41): ;;;{{;{;}{}{;};{;}{;}}}
+()
+Restart.cs (22): ;;;{{{}{;;}}}
+()
+Shutdown.cs (22): ;;;{{{}{;;}}}
+()
+ExitWindowsFlags.cs (17): ;{{}}
+()
+IWindowsFunctions.cs (9): {{;;;}}
+()
+ShutdownReason.cs (47): ;{{}}
+()
+WindowsFunctions.cs (37): ;{{{;}{;}{;};;;}}
+()
+Ask.cs (29): ;;{{;{;}{{};{;};}}}
+()
+IAskForAUrl.cs (7): {{;}}
+()
+IConvertToSyncTime.cs (7): {{;}}
+()
+IGet.cs (7): {{;}}
+()
+IGetSyncTimeFromAUrl.cs (7): {{;}}
+()
+Sleep.cs (24): ;;;{{{}{;;;;}}}
+()
+SynchronizeFromWeb.cs (48): ;;{{;;{}{;;}{;;;{;}{;}}}}
+()
+SyncTime.cs (32): ;;;{{{;;}{;;}{;;}{;;}{{;;}}{;}}}
+()
+TimeLoader.cs (23): {{;;{;;}{;}}}
+()
+Web.cs (27): ;;;{{{;;{;}}}}
+()
+AddSeconds.cs (33): ;;;{{{}{;;;}}}
+()
+Start.cs (20): ;;{{{}{;}}}
+()
+Stop.cs (20): ;;{{{}{;}}}
+()
+Toggle.cs (24): ;;;{{{}{;;}}}
+()
+Benchmark.cs (51): ;;;;;{{;;{}{;;;;}{;;;;{}{}{}{}{};;}}}
+()
+DisplayMessage.cs (45): ;;;;;{{;{}{{};{;}}{;}}}
+()
+ICanBeSelected.cs (7): {{;}}
+()
+Pacemaker.cs (27): ;;;{{{}{;;;;;}}}
+()
+PlaySound.cs (32): ;;;;;;{{{}{{;}{;}}}}
+()
+Pomodoro.cs (48): ;;;{{{}{;;}{;;;;}{;;;;}}}
+()
+RegisterAttribute.cs (8): ;{{}}
+()
+RestartTimer.cs (22): ;;{{{}{;;}}}
+()
+FullScreen.cs (25): ;;;{{{}{;}}}
+()
+PickColor.cs (24): ;;;;;{{{}{;;}}}
+()
+PresetTime.cs (28): ;;;;;;{{{}{;;;}}}
+()
+SetTime.cs (26): ;;;;;{{{}{;;}}}
+()
+Zoom.cs (26): ;;;{{{}{;;}}}
+()
+ControlDispatchHelperWeasel.cs (34): ;;;;{{{{;}{;}}{{;}{;}}}}
+()
+Decoration.cs (40): ;;;{{;{;}{;;}{;}{;}{;}}}
+()
+ICreateWeasels.cs (9): ;{{;}}
+()
+Interaction.cs (30): ;;;{{{;;;;}{;;}{;;}{;;}{;;}}{}{}}
+()
+KeyBindingFactory.cs (29): ;;;;{{{;}{{};}}}
+()
+MenuItemFactory.cs (76): ;;;;;;;;;;{{;{;}{;;;;}{{};;}{{};;}{;;{};}{;;}}}
+()
+NotACommandComplaint.cs (34): ;;{{{}{}{}{}}}
+()
+NotEnoughParametersSpecifiedComplaint.cs (34): ;;;{{{}{}{}{}{{}{}{};;}}}
+()
+TypeFinder.cs (25): ;;;;{{;{;}{;}}}
+()
+Dependencies.cs (67): ;;;{{;{;}{;}{;}{{;};;}{;}{{;};;}{;}{;}{;}}}
+()
+Instance.cs (32): ;;;{{{;}{;;}{;}{;;;;;}}}
+()
+NotAssignableComplaint.cs (39): ;;{{{}{}{}{}{}{}{}}}
+()
+Singleton.cs (24): ;;{{;{}{;}{;}}}
+()
+TypeNotRegisteredComplaint.cs (39): ;;{{{}{}{}{}{}{}}}
+()
+CircularBuffer.cs (17): ;{{{}{;;}}}
+()
+CircularTimespan.cs (35): ;;;;{{;{;;}{;;}{;}{{};;}}}
+()
+GiveMeAClock.cs (37): ;;;{{{;;}{{};}{{};}}}
+()
+ViewModel.cs (46): ;;;;{{;{;;;}{;}{;;}{;;;}}}
+()
+CountDown.cs (38): ;;{{;{;}{;;}{;}{;}{;;;}}}
+()
+ICanStartAndStop.cs (12): ;{{{;;};;}}
+()
+IHaveGotTheTime.cs (9): ;{{{;}}}
+()
+IStartAndStop.cs (11): ;{{{;;};;}}
+()
+Wristwatch.cs (16): ;{{{{;}}}}
+()
+MainViewModel.cs (103): ;;;;;;{{;;;;;;;;;{;;;}{{;}{;}}{{;}{;}}{{;}{;}}{{;}{;}}{;;;;;}{;;}{;}{;{;;}}{;}{;;}{;;;;}}}
+()
+ViewModel.cs (39): ;;;{{{;;}{{};}{{};;;}}}
+()
+ViewModelBaseWeasel.cs (29): ;;{{;{;;;}{;;;}}}
+()
+AssemblyInfo.cs (54): ;;;;
+()
+ColorBrightnessExtension.cs (60): ;{{{;}{;}{;}{;}{;;;{;;;;}{;;;};}}}
+()
+ColorToBrushExtension.cs (13): ;{{{;}}}
+()
+ControlDispatchExtension.cs (34): ;;;;{{{{;}{;}}{{;}{;}}}}
+()
+DependencyObjectExtensions.cs (30): ;;;{{{;;;;{;{;}{;}}}}}
+()
+DictionaryExtension.cs (16): ;;{{{;}}}
+()
+HexToColorExtension.cs (35): ;{{{;}{;}{;}{;}}}
+()
+IntToTimespanExtension.cs (36): ;{{{;}{;}{;}{;}{;}}}
+()
+KeyExtension.cs (21): ;{{{;}{;;;}}}
+()
+MenuItemExtension.cs (17): ;;;{{{{;}}}}
+()
+StringFormatExtension.cs (10): {{{;}}}
+()
+TimeSpanExtensions.cs (12): ;{{{;}}}
+()
+Benchmark.cs (36): ;;;;{{;;{;;;;}{;;;;{}{}{}{}{};;}}}
+()
+DisplayMessage.cs (22): ;;{{;{{;}}{;}}}
+()
+ICanBeSelected.cs (10): ;;{{;}}
+()
+IExecute.cs (10): ;;{{;}}
+()
+PlaySound.cs (23): ;;;;;{{{{;}{;}}}}
+()
+PomodoroTimer.cs (33): ;;;{{{;;}{;;;;}{;;;;}}}
+()
+ResetTimer.cs (21): ;;;{{;{;}{;}}}
+()
+RestartTimer.cs (21): ;;{{;{;}{;;}}}
+()
+Hibernate.cs (23): ;{{{}{}{;;;;}}}
+()
+IShutdownTheSystem.cs (7): {{;}}
+()
+Lock.cs (20): ;{{{}{}{;}}}
+()
+LogOff.cs (21): ;{{{}{}{;;}}}
+()
+Restart.cs (21): ;{{{}{}{;;}}}
+()
+Shutdown.cs (21): ;{{{}{}{;;}}}
+()
+Sleep.cs (23): ;{{{}{}{;;;;}}}
+()
+WindowsPowerAction.cs (28): ;{{;{;}{}{;}{;}}}
+()
+ExitWindowsFlags.cs (17): ;{{}}
+()
+IWindowsFunctions.cs (9): {{;;;}}
+()
+ShutdownReason.cs (47): ;{{}}
+()
+WindowsFunctions.cs (33): ;{{{;}{;}{;};;;}}
+()
+AskForAMessage.cs (10): {{{}}}
+()
+AskForAUrl.cs (10): {{{}}}
+()
+Prompt.xaml.cs (49): ;{{;{;;;;;}{;;}{;;}{{;}{;}}{{;;};;;}}}
+()
+BigRoundTimePicker.cs (44): ;;;;;{{{;;}{;;}{;;}{;;;}{;;}{;;}{;}}}
+()
+BigRoundWheel.xaml.cs (83): ;;;;;;{{;{;;;;;}{{;}}{;;}{;;;;;;;;;;;;}{;;;;;}{;;}{{;}}{{;;}}{;}}}
+()
+Clock.cs (138): ;;;;;;;;{{;;;;;;;;{;;;;}{;;}{{;}{;}}{{;}{;}}{{;}{;}}{{;}{;}}{;;}{;;;;;}{;;}{{;;};}{;}{;{;}}{;;}{;}{;;;;}{;;;}}}
+()
+Display.xaml.cs (42): ;;;;;{{;{;;;;}{{;}}{;}{;;}}}
+()
+IClock.cs (21): ;;{{{;;}{;;}{;}{;}{;}{;};;;}}
+()
+InvisibilityConverter.cs (20): ;;;;{{{;}{;}}}
+()
+MainWindow.xaml.cs (42): ;;;;;{{;{;;;}{{;}}{;;;}{;;}}}
+()
+Menu.xaml.cs (10): {{{;}}}
+()
+MouseWheelGesture.cs (56): ;{{{}{}{;;}{{{};}}{{{};}}{{{};}}{{{};}}{;;;{;;;;}}}}
+()
+MutuallyExclusiveCheckBoxes.cs (42): ;;{{{;}{;}{;;;;}{;}{;}{;}}}
+()
+VisibilityConverter.cs (20): ;;;;{{{;}{;}}}
+()
+WheelDirection.cs (9): {{}}
+()
+ColorPicker.cs (42): ;;;;{{{;}{;;}{;;;}{;;}{;;}{;}}}
+()
+Wheel.xaml.cs (20): ;;;{{{;}{;;}}}
+()
+Command.cs (19): ;;{{{}{;};}}
+()
+ViewCommand.cs (15): ;;{{{;;}{;}}}
+()
+ClearActions.cs (10): {{{{};}}}
+()
+RegisterShutdownEvent.cs (12): ;{{{;}}}
+()
+RegisterTimeoutEvent.cs (23): ;{{{;;}{;}{;}}}
+()
+ExitApplication.cs (13): ;;{{{;}}}
+()
+AddTime.cs (12): ;{{{;}}}
+()
+ChangeTime.cs (13): ;{{{;;}}}
+()
+Start.cs (10): {{{;}}}
+()
+Stop.cs (11): {{{;}}}
+()
+Toggle.cs (13): ;{{{;;}}}
+()
+FullScreen.cs (10): {{{;}}}
+()
+SetColor.cs (37): ;{{;{;;;;;;}{;;}}}
+()
+SetTime.cs (18): ;;{{{;}{;}}}
+()
+ZoomIn.cs (10): {{{;}}}
+()
+ZoomOut.cs (10): {{{;}}}
+()
+CurrentMousePosition.cs (32): ;{{{;;;;}{;;}{;;};{;;}}}
+()
+MouseWheelGesture.cs (56): ;{{{}{}{;;}{{{};}}{{{};}}{{{};}}{{{};}}{;;;{;;;;}}}}
+()
+WheelDirection.cs (9): {{}}
+()
+ButtonDesign.cs (36): ;;;{{{;;}{;;}{{};}{;;}{{};}}}
+()
+Keyboard.xaml.cs (100): ;;;;;;;;;{{{;;;;}{;{;{;;;}}}{;}{;}{;}}}
+()
+KeyMap.cs (57): ;;;;;{{;{{;}}{;}{;}{{};;;}{;;}{;;}{;}}}
+()
+NoButton.cs (8): ;{{}}
+()
+ShortCut.cs (22): ;;{{{;;}{;;}{;;}{{}{}{};}{;}}}
+()
+Settings.xaml.cs (15): ;{{{;}}}
+()
+ShutdownMenuWindo.xaml.cs (36): ;;;;;{{{;}{;}}{{}{;}}}
