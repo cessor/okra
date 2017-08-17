@@ -21,9 +21,9 @@ namespace Okra
         public App()
         {
             _clock = GiveMeAClock.ForTheCurrentConfig();
+            
             LoadPlugins();
-
-
+            
             IEnumerable<MenuItem> items = _plugin.Select(p => p.MenuItem);
             var mainMenu = new Menu();
             foreach (MenuItem menuItem in items)
@@ -33,6 +33,7 @@ namespace Okra
 
             IEnumerable<KeyBinding> shortcuts = _plugin.SelectMany(p => p.ShortCuts);
 
+            // Display 00:00:00 Clock
             var display = new Display(_clock, shortcuts);
             display.Time.ContextMenu = mainMenu;
             display.Show();

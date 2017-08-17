@@ -29,10 +29,13 @@ namespace Okra.View.Digits
         }
 
         // TODO: Can this become a command of some kind? - JH, Ages Ago.  17.12.2012
+        // TODO: Can this become a command of some kind? - JH, Ages Ago.  17.08.2017
         private void WhenAKeyWasPressed(object sender, KeyEventArgs pressed)
         {
             if (pressed.Key.IsDigit())
+            { 
                 AppendToTheTimeLeft(pressed.Key.Digit());
+            }
         }
 
         private void AppendToTheTimeLeft(byte digit)

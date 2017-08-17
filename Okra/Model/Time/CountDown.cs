@@ -11,8 +11,7 @@ namespace Okra.Model.Time
         {
             _timer.Elapsed += (s, e) => OnTick();
         }
-
-        #region IStartAndStop Members
+     
 
         public Action Tick { get; set; }
 
@@ -25,8 +24,6 @@ namespace Okra.Model.Time
         {
             _timer.Stop();
         }
-
-        #endregion
 
         public void OnTick()
         {

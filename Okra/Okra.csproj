@@ -98,6 +98,7 @@
     <Compile Include="Readability\DictionaryExtension.cs" />
     <Compile Include="View\AskForAMessage.cs" />
     <Compile Include="View\AskForAUrl.cs" />
+    <Compile Include="View\Clock\Clock.cs" />
     <Compile Include="View\TimePicker\TimePicker.xaml.cs" />
     <Compile Include="View\Digits\IClock.cs" />
     <Compile Include="View\Input\CurrentMousePosition.cs" />
@@ -162,6 +163,10 @@
     <Compile Include="View\Wheel\Extensions\EnumerableExtensions.cs" />
     <Compile Include="View\Wheel\Extensions\PointExtension.cs" />
     <Compile Include="View\Wheel\Extensions\UIElementExtension.cs" />
+    <Page Include="View\Clock\Clock.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="View\TimePicker\TimePicker.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -215,7 +220,6 @@
     <Compile Include="Commands\CommandsExtension.cs" />
     <Compile Include="View\ColorPicker\ColorPicker.cs" />
     <None Include="packages.config" />
-    <None Include="View\ClassDiagram1.cd" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Media\Sound.txt" />

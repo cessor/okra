@@ -98,6 +98,7 @@ namespace Okra.View.Digits
         // [ ... 10 ... ]
         // TODO: Never. 15.12.2013
         // TODO: Never. 02.03.2014
+        // TODO: Never. 17.08.2017
         private void DecreaseTime()
         {
             TimeLeft = CalculateTimeleft();
@@ -117,6 +118,7 @@ namespace Okra.View.Digits
         // TODO: This should be its own datatype so that it can be reused.  - 15.12.2012
         // TODO: This should be its own datatype so that it can be reused.  - 23.12.2012
         // TODO: Something something  - 02.03.2014 - FUCK. I'm getting old.
+        // TODO: Something something  - 17.08.2017 - Yap, still getting old.
         private TimeSpan CalculateTimeleft()
         {
             return (_end - _wristwatch.Now).ToTheSecond();

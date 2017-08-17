@@ -33,7 +33,7 @@ namespace Okra.View.Wheel.ColorPalette
             const int half = slices/2;
             const float perc = (100.0f/half)/100;
             return Enumerable.Range(1, slices)
-                .Select(i => (half - i)*perc)
+                .Select(i => (half - i) * perc)
                 .Select(j => new SolidColorBrush(baseColor.ChangeColorBrightness(j)));
         }
 
